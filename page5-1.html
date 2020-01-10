@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>매장찾기&lt;빽다방</title>
+    <!-- 웹 아이콘 -->
+    <link rel="shortcut icon" href="images/web-icon.png">
+    <!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans|Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+    <!-- 페이지 CSS-->
+    <link rel="stylesheet" href="css/page_5-1.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header+footer.css">
+    <!-- 제이쿼리 -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- 폰트어썸:아이콘 라이브러리 -->
+    <script src="https://kit.fontawesome.com/42bc809b80.js" crossorigin="anonymous"></script>
+    <!-- 사용자 자바스크립트 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+   <!-- HEADER -->
+   <div id="header_wrap">
+        <header id="main_header">
+            <h1>
+                <a href="index.html">
+                    <img id="logo" src="images/logo.png" alt="빽다방">
+                </a>
+            </h1>
+            <div id="toobar">
+                <ul>
+                    <li><a href="#">더본코리아 &nbsp; &nbsp; |</a></li>
+                    <li><a href="#">매장찾기 &nbsp; &nbsp; |</a></li>
+                    <li><a href="#"><img src="images/insta-icon.png" alt="insta">&nbsp;&nbsp;</a></li>
+                    <li><a href="#"><img src="images/facebook-icon.png" alt="facebook"></a></li>
+                </ul>
+                </a>
+            </div>
+        </header>
+        <div class="ex"></div>
+        <div id="gnb_wrap">
+            <nav id="main_gnb">
+                <ul class="depth1">
+                    <li><a href="page1-2.html">빽다방</a>
+                        <ul class="depth2">
+                            <li><a href="page1-2.html">CEO 인사말</a></li>
+                            <li><a href="page1-2.html">빽다방 소개</a></li>
+                            <li><a href="page1-2.html">커피이야기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="page2-1.html">메뉴</a>
+                        <ul class="depth2">
+                            <li><a href="page2-1.html">신메뉴</a></li>
+                            <li><a href="page2-1.html">커피</a></li>
+                            <li><a href="page2-1.html">음료</a></li>
+                            <li><a href="page2-1.html">아이스크림/디저트</a></li>
+                            <li><a href="page2-1.html">빽스치노</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">소식</a>
+                        <ul class="depth2">
+                            <li><a href="#">소식</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">당첨자발표</a></li>
+                            <li><a href="#">친절 우수매장</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">커뮤니티</a>
+                        <ul class="depth2">
+                            <li><a href="#">커피클래스</a></li>
+                            <li><a href="#">서포터즈</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">매장안내</a>
+                        <ul class="depth2">
+                            <li><a href="page5-1.html">매장찾기</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">창업안내</a>
+                        <ul class="depth2">
+                            <li><a href="#">가맹정보 및 절차</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">고객의소리</a>
+                        <ul class="depth2">
+
+                        </ul>
+                    </li>
+                </ul><!-- end depth1 -->
+            </nav>
+
+        </div>
+    </div>
+    <section id="menu_main">
+        <div>
+            <h1>매장 찾기</h1>
+            <span class="line1"></span>
+            <p>원하시는 지역의 매장을 검색해 보세요!</p>
+        </div>
+    </section>
+    <!-- 메인콘텐츠 -->
+    <div id="contents_box">
+        <div id="search_wrap">
+            <div class="search_box">
+                <span>지역검색</span>
+                <select id="area">
+                    <option>전체</option>
+                    <option>서울특별시</option>
+                    <option>인천광역시</option>
+                    <option>울산광역시</option>
+                    <option>부산광역시</option>
+                </select>
+                <select id="down_area">
+                    <option>전체</option>
+                    <option>강동구</option>
+                    <option>강서구</option>
+                    <option>강남구</option>
+                    <option>강북구</option>
+                </select>
+                <span>매장검색</span>
+                <input type="text">
+                <button class="s_icon">
+                    <img src="images/search-ico.png" alt="">
+                </button>
+            </div>
+        </div>
+        <div id="store_list">
+            <section class="left_box">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6330.927556626259!2d127.0228468299868!3d37.49697836924389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca15008231405%3A0xd2c666b49c53180d!2z67m964uk67Cp!5e0!3m2!1sko!2skr!4v1576124248811!5m2!1sko!2skr" width="575" height="400" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </section>
+            <section class="right_box">
+                <table border="0">
+                    <tr>
+                        <th>매장명</th>
+                        <th>전화번호</th>
+                        <th>주소</th>
+                    </tr>
+                    <tr>
+                        <td>서초우성점</td>
+                        <td><a href="#">02-584-1061</a></td>
+                        <td>서울특별시 서초구 서초동 사임당로 181</td>
+                    </tr>
+                    <tr>
+                        <td>선릉역1호점</td>
+                        <td><a href="#">02-557-0410</a></td>
+                        <td>서울특별시 강남구 테헤란로51길 10</td>
+                    </tr>
+                    <tr>
+                        <td>신림역1호점</td>
+                        <td><a href="#">02-887-8833</a></td>
+                        <td>서울특별시 관악구 남부순환로 1592</td>
+                    </tr>
+                    <tr>
+                        <td>신설동역1호점</td>
+                        <td><a href="#">02-6104-7979</a></td>
+                        <td>서울특별시 동대문구 왕산로 20</td>
+                    </tr>
+                    <tr>
+                        <td>종로숭인1호점</td>
+                        <td><a href="#">02-6053-0950</a</td>
+                        <td>서울특별시 종로구 종로 387</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="foooter">
+    <div id="footer_bg"></div>
+    <footer id="main_footer">
+        <h1><img src="images/footer_logo.png" alt="The born"></h1>
+        <p><span>(주)더본코리아</span> | <span>사업자등록번호</span> 211-86-00870 | <span>대표이사</span> 백종원</p>
+        <address>서울시 강남구 봉은사로 1길 39 유성빌딩 4~6층</address>
+        <p><span>본사 대표전화</span>: 02-549-3864 | <span>가맹상담전화</span>: 02-3447-0410 | <span>고객센터</span>: 1544-2360</p>
+        <p class="copyright">COPYRIGHT &copy; 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED.</p>
+    </footer> 
+    </div>
+</body>
+</html>

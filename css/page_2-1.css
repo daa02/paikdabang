@@ -1,0 +1,114 @@
+/* 비디오(메인 콘텐츠) */
+#video {
+    
+    /* background: #ccc; */
+    /* display: inline-block; */
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.vimeo{
+    width: 100%;
+    margin-bottom: 140px;
+}
+
+
+#video > .title {
+    width: 1200px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+    text-align: center;
+
+}
+
+#video > .title img {
+    width: 320px;
+}
+
+/* 추천 메뉴 */
+
+#best_menu{
+    /* background: #cccccc; */
+    width: 880px;
+    margin: 0 auto;
+    /* background: skyblue; */
+    text-align: center;
+}
+
+#best_menu h1 {
+    font-size: 2.3em;
+    color: #0e347e;
+    margin-bottom: 35px;
+}
+
+#best_menu .line2 {
+    display: block;
+    border-bottom: 4px solid #0e347e;
+    width: 40px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.best_list{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.best_list li{
+    text-align: center;
+    width: 220px;
+    float: left;
+}
+.best_list li img{
+    width: 200px;
+}
+
+.best_list li .text{
+    font-size: 15px;
+    margin: 20px;
+}
+
+
+
+/* 호버 */
+
+.best_list .hover{
+    display: none;
+}
+
+.best_list li:hover .hover{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 220px;
+    height: 286px;
+    background: rgba(255, 230, 0, 0.8);
+    padding: 10px;
+    text-align: center;
+    color: #0e347e;
+    line-height: 19px;
+}
+
+.best_list .hover h2{
+    margin-top: 41px;
+    margin-bottom: 7px;
+}
+.best_list .hover .eg{
+    color: #5a5a5ade;
+    font-size: 12px;
+}
+.line_in {
+    display: block;
+    border-bottom: 3px solid #0e347e;
+    width: 30px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.best_list .hover .info{
+    color: #404040;
+}
+

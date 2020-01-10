@@ -1,0 +1,73 @@
+.slider {
+  position: relative;
+
+  padding-bottom: 29.94%;
+}
+.slider > img {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  /* 전환효과 */
+  transition-duration: 1s;
+}
+.slider > img.show {
+  opacity: 1;
+}
+.indicator {
+  position: absolute;
+  z-index: 99;
+  opacity: 1;
+  /* border: 1px solid red; */
+}
+.indicator > a.show {
+  color: red;
+}
+
+.popup .pop1.show{
+  position: absolute;
+  z-index: 999;
+  right: 20px; top: 50px;
+  width: 450px; height: 613px;
+  background: #ffffff;
+  padding: 1em;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  display: block;
+}
+.popup .pop2.show{
+  position: absolute;
+  z-index: 999;
+  right: 20px; top: 50px;
+  width: 440px; height: 613px;
+  background: #ffffff;
+  padding: 1em;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+  display: block;
+}
+.popup .pop3.show{
+  position: absolute;
+  z-index: 999;
+  right: 20px; top: 50px;
+  width: 470px; height: 613px;
+  background: #ffffff;
+  padding: 1em;
+  box-shadow: 2px 2px 8px rgba(206, 135, 135, 0.4);
+  display: block;
+}
+
+.pop1,
+.pop2,
+.pop3 {
+  display: none;
+}
+.pop1 > .close_box1,
+.pop2 > .close_box2,
+.pop3 > .close_box3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  text-align: right;
+  padding: 5px 1em;
+  
+}
